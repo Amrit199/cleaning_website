@@ -13,12 +13,12 @@ export default function Navbar() {
   };
   return (
     <div className="w-full">
-      <div className="w-full h-20 bg-white fixed px-7 py-6 flex items-center justify-between">
+      <div className="w-full h-20 bg-white fixed p-3 md:p-9 flex items-center justify-between">
         <Link className="basis-1/4 flex items-center" href="/">
           <Image
             src={logo}
             alt="miljo"
-            className="md:w-40 rounded-lg cursor-pointer"
+            className="md:w-40 object-cover rounded-lg cursor-pointer"
           />
         </Link>
         <div className="basis-2/4 hidden md:flex items-center justify-around text-xl">
@@ -39,7 +39,7 @@ export default function Navbar() {
           href="/"
           className="basis-1/4 hidden md:flex items-center justify-center"
         >
-          <button className="px-5 py-3 bg-[#4d696a] hover:bg-[#7fafb1] text-white rounded-3xl uppercase font-bold">
+          <button className="px-5 py-3 bg-[#7fafb1] hover:bg-[#C0D7D8] text-black rounded-3xl uppercase font-bold">
             Kontakt oss
           </button>
         </Link>
