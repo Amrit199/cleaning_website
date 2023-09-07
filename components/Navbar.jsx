@@ -36,7 +36,7 @@ export default function Navbar() {
           </Link>
         </div>
         <Link
-          href="/"
+          href="/contact"
           className="basis-1/4 hidden md:flex items-center justify-center"
         >
           <button className="px-5 py-3 bg-[#7fafb1] hover:bg-[#C0D7D8] text-black rounded-3xl uppercase font-bold">
@@ -87,7 +87,7 @@ export default function Navbar() {
             <Link href="/blogs" className="hover:text-[#206e61] cursor-pointer">
               Blog
             </Link>
-            <Link href="/" className="flex items-center justify-center">
+            <Link href="/contact" className="flex items-center justify-center">
               <button className="px-5 py-1 md:py-3 bg-[#4d696a] hover:bg-[#7fafb1] text-white rounded-3xl text-base uppercase font-bold md:text-xl">
                 Kontakt oss
               </button>
