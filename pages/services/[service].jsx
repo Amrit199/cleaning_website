@@ -1,33 +1,46 @@
-import { services } from '@/constants'
-import Image from 'next/image'
-import { useRouter } from 'next/router'
-import React, { useEffect, useState } from 'react'
+import WithUs from "@/components/WithUs";
+import { services } from "@/constants";
+import Image from "next/image";
+import { useRouter } from "next/router";
+import React, { useEffect, useState } from "react";
 
 const index = () => {
-  const router = useRouter()
-  const { product } = router.query
-  const [service, setProject] = useState(null)
+  const router = useRouter();
+  const product = router.query.service;
+  const [service, setProject] = useState(null);
 
-  console.log(product)
+  console.log(product);
 
   useEffect(() => {
-    if(product) {
+    if (product) {
       const fetchedProject = services.find(
         (service) => service.name === product
-      )
-      setProject(fetchedProject)
+      );
+      setProject(fetchedProject);
     }
-  }, [product])
+  }, [product]);
   if (!service) {
-    return <div className='pt-28 pb-8'>Loading...</div>
+    return <div className="pt-28 pb-8">Loading...</div>;
   }
   return (
-    <div className='w-full pt-24 pb-6 text-black'>
-      <Image src={service.img} className="w-full rounded-lg" alt={service.name}/>
-        <h3 className=" text-black">{service.name}</h3>
-        <p>{service.desc}</p>
+    <div className="w-full pt-24 pb-6 text-black bg-slate-50">
+      <div className="w-full px-8 py-10 flex gap-2">
+        <div className="flex flex-col items-start gap-4">
+          <h3 className=" text-black">{service.name}</h3>
+          <h2 className="text-[#7fafb1]">Det føles bedre når ting er rent!</h2>
+          <Image
+            src={service.img}
+            className="w-96 rounded-lg"
+            alt={service.name}
+          />
+          <p>{service.desc}</p>
+        </div>
+        <div>
+          <WithUs />
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default index
+export default index;
