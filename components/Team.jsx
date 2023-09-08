@@ -2,7 +2,9 @@ import React from 'react'
 
 const Team = () => {
   return (
-    <div>Team</div>
+    <div>
+        <h2>Dette er oss!</h2>
+    </div>
   )
 }
 
