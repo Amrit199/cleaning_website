@@ -28,7 +28,7 @@ export default function Navbar() {
           >
             Tjenester
           </Link>
-          <Link href="/pricing" className="hover:text-[#206e61] cursor-pointer">
+          <Link href="/about" className="hover:text-[#206e61] cursor-pointer">
             Om Oss
           </Link>
           <Link href="/blogs" className="hover:text-[#206e61] cursor-pointer">
@@ -79,7 +79,7 @@ export default function Navbar() {
               Tjenester
             </Link>
             <Link
-              href="/pricing"
+              href="/about"
               className="hover:text-[#206e61] cursor-pointer"
             >
               Om Oss
