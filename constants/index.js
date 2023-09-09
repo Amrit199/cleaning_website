@@ -1,6 +1,8 @@
 import daily from "../public/daily.jpg"
 import vindu from "../public/vindu.jpg"
 import stairs from "../public/stairs.jpg"
+import office from "../public/office.jpg"
+
 
 export const services = [
     {
@@ -39,4 +41,81 @@ export const offers = [
     {
         title: "Fornøydgaranti!",
     },
+]
+
+export const blogs = [
+    {
+        title: "Fordelene med profesjonelle rengjøringstjenester for bedriften din",
+        img: office,
+        alt: "A Well Maintained Modern Office",
+        desc: "I dagens hektiske verden tar det å opprettholde en ren og ryddig arbeidsplass ofte baksetet til de daglige kravene til å drive en bedrift. Men viktigheten av et rent og godt vedlikeholdt arbeidsområde kan ikke overvurderes. I dette blogginnlegget vil vi utforske de mange fordelene ved å investere i profesjonelle rengjøringstjenester for bedriften din.",
+        conclusion: "Hos Miljø setter vi vår ære i å levere rengjøringsløsninger på toppnivå til bedrifter i alle størrelser og bransjer. Vårt team av erfarne renholdere er dedikert til å sikre at arbeidsområdet ditt er rent, trygt og bidrar til produktivitet. Kontakt oss i dag for å lære mer om tjenestene våre og hvordan vi kan hjelpe din bedrift til å blomstre gjennom renslighet. Avslutningsvis er investering i profesjonelle rengjøringstjenester ikke bare en utgift; det er en investering i suksess og velvære for virksomheten din. Renslighet avler produktivitet, sikkerhet og et positivt image, noe som gjør det til en viktig del av enhver vellykket forretningsstrategi.",
+        content: [
+            {
+                heading: "Økt produktivitet",
+                desc: "Et rent og organisert arbeidsområde har vist seg å øke de ansattes produktivitet. Når ansatte ikke trenger å bekymre seg for rot eller uhygieniske forhold, kan de fokusere på oppgavene sine mer effektivt. Et rent miljø reduserer også distraksjoner, noe som fører til økt konsentrasjon og effektivitet.",
+            },
+            {
+                heading: "Forbedret helse og sikkerhet",
+                desc: "Å opprettholde en ren og hygienisk arbeidsplass er avgjørende for helsen og sikkerheten til dine ansatte og kunder. Profesjonelle rengjøringstjenester kan bidra til å eliminere bakterier, allergener og bakterier, og redusere risikoen for sykdommer som sprer seg i bedriftens lokaler. Dette holder ikke bare ansatte sunnere, men minimerer også sykedager og fravær.",
+            },
+            {
+                heading: "Positivt førsteinntrykk",
+                desc: "Førsteinntrykket er viktig, spesielt i næringslivet. Et rent og godt vedlikeholdt kontor eller butikkfront gjør et positivt inntrykk på kunder, kunder og partnere. Det signaliserer profesjonalitet og oppmerksomhet på detaljer, noe som kan være en vesentlig faktor for å tiltrekke og beholde kunder.",
+            },
+            {
+                heading: "Forlenget eiendelslevetid",
+                desc: "Regelmessig rengjøring og vedlikehold av virksomhetens eiendeler, som tepper, møbeltrekk og utstyr, kan forlenge levetiden. Dette sparer deg penger i det lange løp, siden du ikke trenger å bytte ut eller reparere varer så ofte.",
+            },
+            {
+                heading: "Miljøvennlig rengjøring",
+                desc: "Mange profesjonelle rengjøringsfirmaer er forpliktet til miljøvennlige rengjøringsmetoder. Bruk av grønne rengjøringsprodukter og -teknikker reduserer ikke bare karbonavtrykket ditt, men viser også ditt bedriftsansvar og forpliktelse til bærekraft.",
+            },
+            {
+                heading: "Tilpassede rengjøringsplaner",
+                desc: "Profesjonelle rengjøringstjenester kan skreddersy deres rengjøringsplaner for å passe dine spesifikke behov og tidsplan. Enten du trenger daglig, ukentlig eller månedlig rengjøring, kan du lage en plan som passer sømløst inn i virksomheten din.",
+            },
+            {
+                heading: "Tids- og kostnadseffektivitet",
+                desc: "Å sette ut rengjøringsbehovene dine til profesjonelle frigjør verdifull tid og ressurser. Du trenger ikke å bekymre deg for å ansette og lære opp internt rengjøringspersonell, kjøpe rengjøringsmateriell eller administrere rengjøringsplaner. Dette lar deg fokusere på det du kan best – å drive virksomheten din.",
+            },
+        ],
+    },
+    {
+        title: "Fordelene med profesjonelle rengjøringstjenester for bedriften din",
+        img: office,
+        alt: "A Well Maintained Modern Office",
+        desc: "I dagens hektiske verden tar det å opprettholde en ren og ryddig arbeidsplass ofte baksetet til de daglige kravene til å drive en bedrift. Men viktigheten av et rent og godt vedlikeholdt arbeidsområde kan ikke overvurderes. I dette blogginnlegget vil vi utforske de mange fordelene ved å investere i profesjonelle rengjøringstjenester for bedriften din.",
+        conclusion: "Hos Miljø setter vi vår ære i å levere rengjøringsløsninger på toppnivå til bedrifter i alle størrelser og bransjer. Vårt team av erfarne renholdere er dedikert til å sikre at arbeidsområdet ditt er rent, trygt og bidrar til produktivitet. Kontakt oss i dag for å lære mer om tjenestene våre og hvordan vi kan hjelpe din bedrift til å blomstre gjennom renslighet. Avslutningsvis er investering i profesjonelle rengjøringstjenester ikke bare en utgift; det er en investering i suksess og velvære for virksomheten din. Renslighet avler produktivitet, sikkerhet og et positivt image, noe som gjør det til en viktig del av enhver vellykket forretningsstrategi.",
+        content: [
+            {
+                heading: "Økt produktivitet",
+                desc: "Et rent og organisert arbeidsområde har vist seg å øke de ansattes produktivitet. Når ansatte ikke trenger å bekymre seg for rot eller uhygieniske forhold, kan de fokusere på oppgavene sine mer effektivt. Et rent miljø reduserer også distraksjoner, noe som fører til økt konsentrasjon og effektivitet.",
+            },
+            {
+                heading: "Forbedret helse og sikkerhet",
+                desc: "Å opprettholde en ren og hygienisk arbeidsplass er avgjørende for helsen og sikkerheten til dine ansatte og kunder. Profesjonelle rengjøringstjenester kan bidra til å eliminere bakterier, allergener og bakterier, og redusere risikoen for sykdommer som sprer seg i bedriftens lokaler. Dette holder ikke bare ansatte sunnere, men minimerer også sykedager og fravær.",
+            },
+            {
+                heading: "Positivt førsteinntrykk",
+                desc: "Førsteinntrykket er viktig, spesielt i næringslivet. Et rent og godt vedlikeholdt kontor eller butikkfront gjør et positivt inntrykk på kunder, kunder og partnere. Det signaliserer profesjonalitet og oppmerksomhet på detaljer, noe som kan være en vesentlig faktor for å tiltrekke og beholde kunder.",
+            },
+            {
+                heading: "Forlenget eiendelslevetid",
+                desc: "Regelmessig rengjøring og vedlikehold av virksomhetens eiendeler, som tepper, møbeltrekk og utstyr, kan forlenge levetiden. Dette sparer deg penger i det lange løp, siden du ikke trenger å bytte ut eller reparere varer så ofte.",
+            },
+            {
+                heading: "Miljøvennlig rengjøring",
+                desc: "Mange profesjonelle rengjøringsfirmaer er forpliktet til miljøvennlige rengjøringsmetoder. Bruk av grønne rengjøringsprodukter og -teknikker reduserer ikke bare karbonavtrykket ditt, men viser også ditt bedriftsansvar og forpliktelse til bærekraft.",
+            },
+            {
+                heading: "Tilpassede rengjøringsplaner",
+                desc: "Profesjonelle rengjøringstjenester kan skreddersy deres rengjøringsplaner for å passe dine spesifikke behov og tidsplan. Enten du trenger daglig, ukentlig eller månedlig rengjøring, kan du lage en plan som passer sømløst inn i virksomheten din.",
+            },
+            {
+                heading: "Tids- og kostnadseffektivitet",
+                desc: "Å sette ut rengjøringsbehovene dine til profesjonelle frigjør verdifull tid og ressurser. Du trenger ikke å bekymre deg for å ansette og lære opp internt rengjøringspersonell, kjøpe rengjøringsmateriell eller administrere rengjøringsplaner. Dette lar deg fokusere på det du kan best – å drive virksomheten din.",
+            },
+        ], 
+    }
 ]
