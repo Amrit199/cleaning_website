@@ -1,10 +1,11 @@
-import Team from "@/components/Team";
+import ContactForm from "@/components/ContactForm";
+import Featured from "@/components/Featured";
 import React from "react";
 
 const index = () => {
   return (
     <div className="w-full pt-24 pb-6 text-black">
-      <div className=" w-[90%] sm:w-[80%] md:w-[70%] mx-auto md:p-10 flex flex-col items-center gap-4">
+      <div className=" w-[90%] lg:w-[70%] mx-auto py-10 flex flex-col items-center justify-center text-center gap-4">
         <h2 className="text-black py-4">Miljø Renholdjenester AS</h2>
         <p>
           Velkommen til Miljø Renholdjenester AS, registrert under
@@ -27,9 +28,12 @@ const index = () => {
           virksomhet.
         </p>
       </div>
-      <div className="w-full bg-slate-100 p-10">
-        <div className="lg:w-[70%] mx-auto">
-          <Team />
+      <div className="w-full bg-slate-100 px-2 py-10 lg:px-10">
+          <Featured />
+      </div>
+      <div className="w-full py-10">
+        <div className="w-[90%] md:w-[70%] lg:w-[50%] bg-slate-100 mx-auto border-2 border-[#7fafb1] rounded-xl shadow-2xl">
+          <ContactForm />
         </div>
       </div>
     </div>
