@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const ServicesCard = ({ item }) => {
   let longTitle = item.desc.split(" ");
-  let shortTitle = longTitle.slice(0, 42).join(" ");
+  let shortTitle = longTitle.slice(0, 21).join(" ");
   return (
       <Link href={`/services/${item.name}`} className="w-full p-6 flex flex-col items-start justify-between gap-4 bg-white rounded-lg">
         <Image src={item.img} className="w-full rounded-lg" alt={item.name}/>

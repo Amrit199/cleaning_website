@@ -3,16 +3,13 @@ import React from 'react'
 import logo from "../public/Miljø.png";
 import { AiFillPhone, AiFillLinkedin } from 'react-icons/ai'
 import { MdLocationPin, MdEmail, MdFacebook } from 'react-icons/md'
+import { services } from '@/constants';
 
 const content = {
   desc: "Miljø Renhold er din pålitelige partner for å opprettholde uberørte og hygieniske rom, enten det er hjemmet eller arbeidsplassen din. Vi tror at et rent miljø er avgjørende for et sunt og lykkelig liv, og vi er her for å gjøre det til en realitet for deg.",
   tjenester: [
     {
       title: "Daglig renhold",
-      link: "/",
-    },
-    {
-      title: "Oppskuring og boning",
       link: "/",
     },
     {
@@ -57,8 +54,8 @@ const Footer = () => {
       <div className='basis-1/4 px-3 flex flex-col gap-6'>
         <h4 className='text-[#7fafb1]'>Tjenester</h4>
         <div className='flex flex-col items-start gap-2'>
-        {content.tjenester.map((item, index) => (
-          <a href={item.link} key={index}>{item.title}</a>
+        {services.map((item, index) => (
+          <a href={`/services/${item.name}`} key={index}>{item.name}</a>
         ))}
         </div>
       </div>

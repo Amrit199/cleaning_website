@@ -13,7 +13,7 @@ export default function Navbar() {
   };
   return (
     <div className="w-full">
-      <div className="w-full h-20 bg-white fixed p-3 md:p-9 flex items-center justify-between">
+      <div className="w-full border-b-2 border-[#7fafb1] h-20 bg-white fixed p-3 md:p-9 flex items-center justify-between">
         <Link className="basis-1/4 flex items-center" href="/">
           <Image
             src={logo}
