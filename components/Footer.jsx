@@ -7,32 +7,6 @@ import { services } from '@/constants';
 
 const content = {
   desc: "Miljø Renhold er din pålitelige partner for å opprettholde uberørte og hygieniske rom, enten det er hjemmet eller arbeidsplassen din. Vi tror at et rent miljø er avgjørende for et sunt og lykkelig liv, og vi er her for å gjøre det til en realitet for deg.",
-  tjenester: [
-    {
-      title: "Daglig renhold",
-      link: "/",
-    },
-    {
-      title: "Hovedrengjøring",
-      link: "/",
-    },
-    {
-      title: "Forbruksmateriell",
-      link: "/",
-    },
-    {
-      title: "Matteservice",
-      link: "/",
-    },
-    {
-      title: "Vinduspuss",
-      link: "/",
-    },
-    {
-      title: "Trappevask",
-      link: "/",
-    },
-  ],
   kontakt: {
     ph: "(+47) 40112625",
     email: "post@miljø.no",
