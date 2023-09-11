@@ -7,7 +7,7 @@ const index = () => {
     <div className="w-full pt-24 pb-6 text-black">
       <div className=" w-[90%] lg:w-[70%] mx-auto py-10 flex flex-col items-center justify-center text-center gap-4">
         <h2 className="text-black py-4">Miljø Renholdjenester AS</h2>
-        <p>
+        <p className="text-lg">
           Velkommen til Miljø Renholdjenester AS, registrert under
           organisasjonsnummer 998 916 755, et anerkjent renholdsbedrift med en
           bemerkelsesverdig reise som startet i år 2012. Med et tiår med

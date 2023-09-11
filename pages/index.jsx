@@ -1,21 +1,21 @@
+import AboutCard from "@/components/AboutCard";
 import ContactForm from "@/components/ContactForm";
 import Featured from "@/components/Featured";
-import Hero from "@/components/Hero";
-import Quality from "@/components/Quality";
-import Savetime from "@/components/Savetime";
+import ServicePage from "@/components/ServicePage";
 import React from "react";
 
 const index = () => {
   return (
     <div className="w-full pt-20 h-full">
-      <Hero />
-      <Quality />
-      <Savetime />
-      <div className="w-full bg-slate-100 px-2 py-10 lg:px-10">
+      <div className="py-20 bg-[url('/home.jpg')] bg-center bg-no-repeat bg-cover bg-fixed">
+      <AboutCard />
+      </div>
+      <ServicePage />
+      <div className="w-full px-2 py-32 lg:px-10">
           <Featured />
       </div>
-      <div className="w-full py-10">
-        <div className="w-[90%] md:w-[70%] lg:w-[50%] bg-slate-100 mx-auto border-2 border-[#7fafb1] rounded-xl shadow-2xl">
+      <div className="w-full py-10 bg-[url('/clean.jpg')] bg-center bg-no-repeat bg-cover flex items-center justify-center md:justify-end">
+        <div className="w-[80%] md:w-[60%] lg:w-[40%] bg-slate-100 rounded-xl m-1 sm:m-6">
           <ContactForm />
         </div>
       </div>
