@@ -11,7 +11,7 @@ const index = () => {
       <AboutCard />
       </div>
       <ServicePage />
-      <div className="w-full px-2 py-32 lg:px-10">
+      <div className="w-full px-2 py-16 md:py-32 lg:px-10">
           <Featured />
       </div>
       <div className="w-full py-10 bg-[url('/clean.jpg')] bg-center bg-no-repeat bg-cover flex items-center justify-center md:justify-end">
