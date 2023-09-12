@@ -9,7 +9,6 @@ export default function Navbar() {
   const [mobile, setMobile] = useState(false);
   const handleMenu = () => {
     setMobile(!mobile);
-    console.log("Mobile state: ", mobile)
   };
   return (
     <div className="w-full">
@@ -75,19 +74,22 @@ export default function Navbar() {
             <Link
               href="/services"
               className="hover:text-[#206e61] cursor-pointer"
+              onClick={handleMenu}
             >
               Tjenester
             </Link>
             <Link
               href="/about"
               className="hover:text-[#206e61] cursor-pointer"
+              onClick={handleMenu}
             >
               Om Oss
             </Link>
-            <Link href="/blogs" className="hover:text-[#206e61] cursor-pointer">
+            <Link href="/blogs" className="hover:text-[#206e61] cursor-pointer"
+            onClick={handleMenu}>
               Blog
             </Link>
-            <Link href="/contact" className="flex items-center justify-center">
+            <Link href="/contact" className="flex items-center justify-center" onClick={handleMenu}>
               <button className="px-5 py-1 md:py-3 bg-[#4d696a] hover:bg-[#7fafb1] text-white rounded-3xl text-base uppercase font-bold md:text-xl">
                 Kontakt oss
               </button>

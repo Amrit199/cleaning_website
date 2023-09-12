@@ -5,6 +5,9 @@ import office from "../public/office.jpg";
 import retail from "../public/retails.jpg";
 import gulv from '../public/gulv.jpg'
 import temporary from "../public/temporary.jpg"
+import byicon from '../public/byportenicon.jpg'
+import glasicon from '../public/glasicon.jpg'
+import foricon from '../public/fornebuicon.png'
 
 export const services = [
   {
@@ -134,3 +137,27 @@ export const blogs = [
     ],
   },
 ];
+
+export const testimonials = [
+  {
+    title: "Byporten Mall of Oslo",
+    person: 'Lina solberg',
+    work: 'Enhetsleder',
+    desc: 'Vi er begeistret for Miljø! Deres førsteklasses service har forvandlet kjøpesenteret vårt, og etterlatt det skinnende rent og innbydende. Profesjonelle, pålitelige og detaljorienterte, de har overgått forventningene våre. Anbefaler sterkt!',
+    img: byicon,
+  },
+  {
+    title: "Byporten Mall of Oslo",
+    person: 'Lina solberg',
+    work: 'Enhetsleder',
+    desc: 'Vi er begeistret for Miljø! Deres førsteklasses service har forvandlet kjøpesenteret vårt, og etterlatt det skinnende rent og innbydende. Profesjonelle, pålitelige og detaljorienterte, de har overgått forventningene våre. Anbefaler sterkt!',
+    img: glasicon,
+  },
+  {
+    title: "Byporten Mall of Oslo",
+    person: 'Lina solberg',
+    work: 'Enhetsleder',
+    desc: 'Vi er begeistret for Miljø! Deres førsteklasses service har forvandlet kjøpesenteret vårt, og etterlatt det skinnende rent og innbydende. Profesjonelle, pålitelige og detaljorienterte, de har overgått forventningene våre. Anbefaler sterkt!',
+    img: foricon,
+  },
+]

@@ -2,6 +2,8 @@ import AboutCard from "@/components/AboutCard";
 import ContactForm from "@/components/ContactForm";
 import Featured from "@/components/Featured";
 import ServicePage from "@/components/ServicePage";
+import TestimonialCard from "@/components/TestimonialCard";
+import { testimonials } from "@/constants";
 import React from "react";
 
 const index = () => {
@@ -19,6 +21,9 @@ const index = () => {
           <ContactForm />
         </div>
       </div>
+      {/* <div>
+          <TestimonialCard/>
+      </div> */}
     </div>
   );
 };
