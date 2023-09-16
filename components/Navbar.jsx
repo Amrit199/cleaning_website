@@ -33,6 +33,9 @@ export default function Navbar() {
           <Link href="/blogs" className="hover:text-[#206e61] cursor-pointer">
             Blog
           </Link>
+          <Link href="/job" className="hover:text-[#206e61] cursor-pointer">
+            Jobb i Miljø
+          </Link>
         </div>
         <Link
           href="/contact"
@@ -89,6 +92,9 @@ export default function Navbar() {
             onClick={handleMenu}>
               Blog
             </Link>
+            <Link href="/job" className="hover:text-[#206e61] cursor-pointer">
+            Jobb i Miljø
+          </Link>
             <Link href="/contact" className="flex items-center justify-center" onClick={handleMenu}>
               <button className="px-5 py-1 md:py-3 bg-[#4d696a] hover:bg-[#7fafb1] text-white rounded-3xl text-base uppercase font-bold md:text-xl">
                 Kontakt oss
