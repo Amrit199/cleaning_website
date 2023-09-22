@@ -161,3 +161,56 @@ export const testimonials = [
     img: foricon,
   },
 ]
+
+export const jobs = [
+  {
+    title: "Renholder",
+    data: '31.12.2023',
+    intro: "Miljø Renhold søker nå ferievikarer innenfor renhold i Oslo og Bærum!",
+    conclustion: "Vi oppfordrer deg til å søke snarest da vi vurderer søknadene fortløpende.Vennligst skriv i søknaden hvilketområde du kan tenke deg å arbeide i. Håper vi hører fra deg!",
+    requirements:[
+      {text: "Har et ønske om å jobbe som renholder"},
+      {text: "Minimum 1 års erfaring inenfor renholdsbransjen"},
+      {text: "Liker å jobbe med et fysisk krevende yrke"},
+      {text: "Er fleksibel med tanke på arbeidstid"},
+      {text: "Kan yte det lille ekstra for et skinnenderesultat"},
+      {text: "Kan kommunisere godt på norsk"},
+      {text: "Har et ønske om å jobbe som renholder"},
+      {text: "En fordel med fagbrev, men ikke et krav"},
+    ],
+    benefits: [
+      {text: "Jobb i et profesjonelt renholdsselskap i sterk vekst"},
+      {text: "Lønn iht. tariff (Norsk Arbeidsmandsforbund og NHO-Service)"},
+      {text: "Hyggelige kollegaer"},
+      {text: "Opplæring"},
+    ]
+  },
+  {
+    title: "Leder",
+    data: '23.12.2023',
+    intro: "Miljø Renhold søker nå ferievikarer innenfor renhold i Oslo og Bærum!",
+    conclustion: "Vi oppfordrer deg til å søke snarest da vi vurderer søknadene fortløpende.Vennligst skriv i søknaden hvilketområde du kan tenke deg å arbeide i. Håper vi hører fra deg!",
+    requirements:[
+      {text: "Har et ønske om å jobbe som renholder"},
+      {text: "Minimum 1 års erfaring inenfor renholdsbransjen"},
+      {text: "Liker å jobbe med et fysisk krevende yrke"},
+      {text: "Er fleksibel med tanke på arbeidstid"},
+      {text: "Kan yte det lille ekstra for et skinnenderesultat"},
+      {text: "Kan kommunisere godt på norsk"},
+      {text: "Har et ønske om å jobbe som renholder"},
+      {text: "En fordel med fagbrev, men ikke et krav"},
+    ],
+    benefits: [
+      {text: "Jobb i et profesjonelt renholdsselskap i sterk vekst"},
+      {text: "Lønn iht. tariff (Norsk Arbeidsmandsforbund og NHO-Service)"},
+      {text: "Hyggelige kollegaer"},
+      {text: "Opplæring"},
+    ]
+  }
+]
+
+export const jobsKontakt = {
+  name: "veronika Aurdal",
+  mobile: "94120645",
+  email: "Moa@egon.no",
+}

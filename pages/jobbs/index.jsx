@@ -1,12 +1,12 @@
 import React from "react";
-import jobb from "../public/jobb.jpg";
+import jobb3 from "../../public/jobb3.jpg";
 import Image from "next/image";
 import Link from "next/link";
-import jobb1 from "../public/jobb1.jpg";
-import jobb2 from "../public/jobb2.jpg";
+import jobb1 from "../../public/jobb1.jpg";
+import jobb2 from "../../public/jobb2.jpg";
 import Vacancies from "@/components/Vacancies";
 
-const job = () => {
+const index = () => {
   return (
     <div className="w-full pt-24">
       <div className=" w-full flex flex-col lg:flex-row items-center justify-center py-10">
@@ -32,7 +32,7 @@ const job = () => {
         </div>
         <div className="w-full">
           <Image
-            src={jobb}
+            src={jobb3}
             alt="a man standing infront of white background"
             className="w-96 mx-auto"
           />
@@ -120,7 +120,7 @@ const job = () => {
         <Vacancies />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default job;
+export default index

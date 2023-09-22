@@ -33,7 +33,7 @@ export default function Navbar() {
           <Link href="/blogs" className="hover:text-[#206e61] cursor-pointer">
             Blog
           </Link>
-          <Link href="/job" className="hover:text-[#206e61] cursor-pointer">
+          <Link href="/jobbs" className="hover:text-[#206e61] cursor-pointer">
             Jobb i Miljø
           </Link>
         </div>
@@ -92,7 +92,7 @@ export default function Navbar() {
             onClick={handleMenu}>
               Blog
             </Link>
-            <Link href="/job" className="hover:text-[#206e61] cursor-pointer">
+            <Link href="/jobbs" className="hover:text-[#206e61] cursor-pointer">
             Jobb i Miljø
           </Link>
             <Link href="/contact" className="flex items-center justify-center" onClick={handleMenu}>
