@@ -3,11 +3,11 @@ import vindu from "../public/vindu.jpg";
 import stairs from "../public/stairs.jpg";
 import office from "../public/office.jpg";
 import retail from "../public/retails.jpg";
-import gulv from '../public/gulv.jpg'
-import temporary from "../public/temporary.jpg"
-import byicon from '../public/byportenicon.jpg'
-import glasicon from '../public/glasicon.jpg'
-import foricon from '../public/fornebuicon.png'
+import gulv from "../public/gulv.jpg";
+import temporary from "../public/temporary.jpg";
+import byicon from "../public/byportenicon.jpg";
+import glasicon from "../public/glasicon.jpg";
+import foricon from "../public/fornebuicon.png";
 
 export const services = [
   {
@@ -141,76 +141,84 @@ export const blogs = [
 export const testimonials = [
   {
     title: "Byporten Mall of Oslo",
-    person: 'Lina solberg',
-    work: 'Enhetsleder',
-    desc: 'Vi er begeistret for Miljø! Deres førsteklasses service har forvandlet kjøpesenteret vårt, og etterlatt det skinnende rent og innbydende. Profesjonelle, pålitelige og detaljorienterte, de har overgått forventningene våre. Anbefaler sterkt!',
+    person: "Lina solberg",
+    work: "Enhetsleder",
+    desc: "Vi er begeistret for Miljø! Deres førsteklasses service har forvandlet kjøpesenteret vårt, og etterlatt det skinnende rent og innbydende. Profesjonelle, pålitelige og detaljorienterte, de har overgått forventningene våre. Anbefaler sterkt!",
     img: byicon,
   },
   {
     title: "Byporten Mall of Oslo",
-    person: 'Lina solberg',
-    work: 'Enhetsleder',
-    desc: 'Vi er begeistret for Miljø! Deres førsteklasses service har forvandlet kjøpesenteret vårt, og etterlatt det skinnende rent og innbydende. Profesjonelle, pålitelige og detaljorienterte, de har overgått forventningene våre. Anbefaler sterkt!',
+    person: "Lina solberg",
+    work: "Enhetsleder",
+    desc: "Vi er begeistret for Miljø! Deres førsteklasses service har forvandlet kjøpesenteret vårt, og etterlatt det skinnende rent og innbydende. Profesjonelle, pålitelige og detaljorienterte, de har overgått forventningene våre. Anbefaler sterkt!",
     img: glasicon,
   },
   {
     title: "Byporten Mall of Oslo",
-    person: 'Lina solberg',
-    work: 'Enhetsleder',
-    desc: 'Vi er begeistret for Miljø! Deres førsteklasses service har forvandlet kjøpesenteret vårt, og etterlatt det skinnende rent og innbydende. Profesjonelle, pålitelige og detaljorienterte, de har overgått forventningene våre. Anbefaler sterkt!',
+    person: "Lina solberg",
+    work: "Enhetsleder",
+    desc: "Vi er begeistret for Miljø! Deres førsteklasses service har forvandlet kjøpesenteret vårt, og etterlatt det skinnende rent og innbydende. Profesjonelle, pålitelige og detaljorienterte, de har overgått forventningene våre. Anbefaler sterkt!",
     img: foricon,
   },
-]
+];
 
 export const jobs = [
   {
-    title: "Renholder",
-    data: '31.12.2023',
-    intro: "Miljø Renhold søker nå ferievikarer innenfor renhold i Oslo og Bærum!",
-    conclustion: "Vi oppfordrer deg til å søke snarest da vi vurderer søknadene fortløpende.Vennligst skriv i søknaden hvilketområde du kan tenke deg å arbeide i. Håper vi hører fra deg!",
-    requirements:[
-      {text: "Har et ønske om å jobbe som renholder"},
-      {text: "Minimum 1 års erfaring inenfor renholdsbransjen"},
-      {text: "Liker å jobbe med et fysisk krevende yrke"},
-      {text: "Er fleksibel med tanke på arbeidstid"},
-      {text: "Kan yte det lille ekstra for et skinnenderesultat"},
-      {text: "Kan kommunisere godt på norsk"},
-      {text: "Har et ønske om å jobbe som renholder"},
-      {text: "En fordel med fagbrev, men ikke et krav"},
+    position: "Renholder",
+    data: "31.12.2023",
+    type: "Fast",
+    title: "Miljø Renhold søker sikkerhetsklarerte renholdere!",
+    intro:
+      "Kan du sikkerhetsklareres og ønsker å jobbe som renholder? Da søker vi nettopp deg til denne jobben! Vi har lokasjoner i Kongsberg og omegnsom på grunn avstrenge sikkerhetskrav krever at renholderne kan sikkerhetsklareres. Vi søker derfor etter vikarerog faste ansattesom har etønske omå jobbe med renhold og som kan sikkerhetsklareres på nivå H og/eller K,med kort behandlingstid.",
+    conclustion:
+      "Vi oppfordrer deg til å søke snarest da vi vurderer søknadene fortløpende.Vennligst skriv i søknaden hvilketområde du kan tenke deg å arbeide i. Håper vi hører fra deg!",
+    requirements: [
+      { text: "Har et ønske om å jobbe som renholder" },
+      { text: "Minimum 1 års erfaring inenfor renholdsbransjen" },
+      { text: "Liker å jobbe med et fysisk krevende yrke" },
+      { text: "Er fleksibel med tanke på arbeidstid" },
+      { text: "Kan yte det lille ekstra for et skinnenderesultat" },
+      { text: "Kan kommunisere godt på norsk" },
+      { text: "Har et ønske om å jobbe som renholder" },
+      { text: "En fordel med fagbrev, men ikke et krav" },
     ],
     benefits: [
-      {text: "Jobb i et profesjonelt renholdsselskap i sterk vekst"},
-      {text: "Lønn iht. tariff (Norsk Arbeidsmandsforbund og NHO-Service)"},
-      {text: "Hyggelige kollegaer"},
-      {text: "Opplæring"},
-    ]
+      { text: "Jobb i et profesjonelt renholdsselskap i sterk vekst" },
+      { text: "Lønn iht. tariff (Norsk Arbeidsmandsforbund og NHO-Service)" },
+      { text: "Hyggelige kollegaer" },
+      { text: "Opplæring" },
+    ],
   },
   {
-    title: "Leder",
-    data: '23.12.2023',
-    intro: "Miljø Renhold søker nå ferievikarer innenfor renhold i Oslo og Bærum!",
-    conclustion: "Vi oppfordrer deg til å søke snarest da vi vurderer søknadene fortløpende.Vennligst skriv i søknaden hvilketområde du kan tenke deg å arbeide i. Håper vi hører fra deg!",
-    requirements:[
-      {text: "Har et ønske om å jobbe som renholder"},
-      {text: "Minimum 1 års erfaring inenfor renholdsbransjen"},
-      {text: "Liker å jobbe med et fysisk krevende yrke"},
-      {text: "Er fleksibel med tanke på arbeidstid"},
-      {text: "Kan yte det lille ekstra for et skinnenderesultat"},
-      {text: "Kan kommunisere godt på norsk"},
-      {text: "Har et ønske om å jobbe som renholder"},
-      {text: "En fordel med fagbrev, men ikke et krav"},
+    position: "Leder",
+    data: "23.12.2023",
+    type: "Fast",
+    title: "Miljø Renhold søker sikkerhetsklarerte renholdere!",
+    intro:
+      "Kan du sikkerhetsklareres og ønsker å jobbe som renholder? Da søker vi nettopp deg til denne jobben! Vi har lokasjoner i Kongsberg og omegnsom på grunn avstrenge sikkerhetskrav krever at renholderne kan sikkerhetsklareres. Vi søker derfor etter vikarerog faste ansattesom har etønske omå jobbe med renhold og som kan sikkerhetsklareres på nivå H og/eller K,med kort behandlingstid.",
+    conclustion:
+      "Vi oppfordrer deg til å søke snarest da vi vurderer søknadene fortløpende.Vennligst skriv i søknaden hvilketområde du kan tenke deg å arbeide i. Håper vi hører fra deg!",
+    requirements: [
+      { text: "Har et ønske om å jobbe som renholder" },
+      { text: "Minimum 1 års erfaring inenfor renholdsbransjen" },
+      { text: "Liker å jobbe med et fysisk krevende yrke" },
+      { text: "Er fleksibel med tanke på arbeidstid" },
+      { text: "Kan yte det lille ekstra for et skinnenderesultat" },
+      { text: "Kan kommunisere godt på norsk" },
+      { text: "Har et ønske om å jobbe som renholder" },
+      { text: "En fordel med fagbrev, men ikke et krav" },
     ],
     benefits: [
-      {text: "Jobb i et profesjonelt renholdsselskap i sterk vekst"},
-      {text: "Lønn iht. tariff (Norsk Arbeidsmandsforbund og NHO-Service)"},
-      {text: "Hyggelige kollegaer"},
-      {text: "Opplæring"},
-    ]
-  }
-]
+      { text: "Jobb i et profesjonelt renholdsselskap i sterk vekst" },
+      { text: "Lønn iht. tariff (Norsk Arbeidsmandsforbund og NHO-Service)" },
+      { text: "Hyggelige kollegaer" },
+      { text: "Opplæring" },
+    ],
+  },
+];
 
 export const jobsKontakt = {
   name: "veronika Aurdal",
   mobile: "94120645",
   email: "Moa@egon.no",
-}
+};
