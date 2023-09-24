@@ -6,7 +6,7 @@ const index = () => {
   const name = router.query.jobb;
   return (
     <div className="w-full pt-24 pb-8">
-      <div className="w-[50%] mx-auto">
+      <div className="w-[90%] md:w-[70%] lg:w-[50%] mx-auto">
         <h1 className="text-black text-center font-bold py-20">Søk på stillingen som {name}</h1>
         <ApplicationForm />
       </div>

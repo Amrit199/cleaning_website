@@ -21,8 +21,8 @@ const index = () => {
   }
   return (
     <div className="w-full pt-24 pb-10">
-      <div className="w-[80%] mx-auto py-8">
-        <div className="w-full flex gap-8">
+      <div className="w-[95%] md:w-[90%] lg:w-[80%] mx-auto py-8">
+        <div className="w-full flex flex-col md:flex-row gap-8">
           <div className="w-full basis-2/3 flex flex-col gap-5 text-lg">
             <h3 className="text-black">{job.title}</h3>
             <div className="flex flex-col gap-3">
@@ -74,7 +74,7 @@ const index = () => {
               </div>
               <Link
                 href={`/jobbs/${job.position}/${job.position}-søknå`}
-                className="basis-1/4 hidden md:flex items-center"
+                className="basis-1/4 items-center"
               >
                 <button className="px-6 py-2 bg-[#7fafb1] hover:bg-[#C0D7D8] text-black rounded-3xl uppercase font-bold">
                   Søk her
