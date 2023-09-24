@@ -21,8 +21,8 @@ const index = () => {
               erfarne renholdere som deler vår forpliktelse til fortreffelighet.
             </p>
             <Link
-              href="/jobapply"
-              className="basis-1/4 hidden md:flex items-center"
+              href="/jobbs/jobb/Open-position"
+              className="basis-1/4 items-center"
             >
               <button className="px-6 py-2 bg-[#7fafb1] hover:bg-[#C0D7D8] text-black rounded-3xl uppercase font-bold">
                 Apply now!

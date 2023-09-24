@@ -7,7 +7,7 @@ const index = () => {
   return (
     <div className="w-full pt-24 pb-8">
       <div className="w-[90%] md:w-[70%] lg:w-[50%] mx-auto">
-        <h1 className="text-black text-center font-bold py-20">Søk på stillingen som {name}</h1>
+        <h1 className="text-black text-center font-bold py-20">Søk på stillingen som {!name ? name : "Open position"}</h1>
         <ApplicationForm />
       </div>
     </div>
