@@ -73,7 +73,7 @@ const index = () => {
                 <p>{job.data}</p>
               </div>
               <Link
-                href={`/jobbs/${job.position}/contact`}
+                href={`/jobbs/${job.position}/${job.position}-søknå`}
                 className="basis-1/4 hidden md:flex items-center"
               >
                 <button className="px-6 py-2 bg-[#7fafb1] hover:bg-[#C0D7D8] text-black rounded-3xl uppercase font-bold">

@@ -1,15 +1,15 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
 
-const VacancyCard = () => {
-    const title = "Renholder"
+const VacancyCard = ({ item }) => {
   return (
-    <Link href={`/jobbs/${title}`}>
+    <Link className="transition-all delay-100 hover:scale-105" href={`/jobbs/${item.position}`}>
       <div className=" w-full bg-slate-200 shadow-lg p-3 rounded-lg flex items-center justify-between text-lg">
-        <p>{title}</p>
+        <p>{item.position}</p>
         <div className=" flex gap-4">
-          <p>Oslo</p>
-          <p>2.sep.2023</p>
+          <p>{item.type}</p>
+          <p>{item.data}</p>
         </div>
       </div>
     </Link>

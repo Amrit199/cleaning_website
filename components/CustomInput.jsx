@@ -6,7 +6,7 @@ const CustomInput = ({ title, type, name, value, placeholder, onChange }) => {
       <label>{title}</label>
       <input
         type={type}
-        className="p-3 border-2 rounded-lg"
+        className="p-3 border-2 rounded-lg font-normal"
         name={name}
         value={value}
         placeholder={placeholder}
