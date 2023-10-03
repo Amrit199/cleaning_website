@@ -22,7 +22,7 @@ const Footer = () => {
   return (
     <div className='w-full p-12 bg-gray-900 text-white flex flex-col md:flex-row items-start gap-4'>
       <div className='basis-2/4 flex flex-col items-start justify-start gap-6 p-4'>
-        <Image src={logo} className='w-56 rounded-lg' />
+        <Image src={logo} alt='logo' className='w-56 rounded-lg' />
         <p>{content.desc}</p>
       </div>
       <div className='basis-1/4 px-3 flex flex-col gap-6'>
