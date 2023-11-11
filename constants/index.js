@@ -9,6 +9,14 @@ import byicon from "../public/byportenicon.jpg";
 import glasicon from "../public/glasicon.jpg";
 import foricon from "../public/fornebuicon.png";
 
+export const navbar = [
+  { href: '/', key: 'home', label: 'Home' },
+  { href: '/services', key: 'tjenester', label: 'Tjenester' },
+  { href: '/about', key: 'omoss', label: 'Om Oss' },
+  { href: '/blogs', key: 'blog', label: 'Blog' },
+  { href: '/jobbs', key: 'jobbimiljø', label: 'Jobb i Miljø' },
+]
+
 export const services = [
   {
     name: "DagligRenhold",

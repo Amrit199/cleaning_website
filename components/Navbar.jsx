@@ -4,8 +4,11 @@ import Link from "next/link";
 import logo from "../public/Miljø.png";
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { navbar } from "@/constants";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
+  const path = usePathname();
   const [mobile, setMobile] = useState(false);
   const handleMenu = () => {
     setMobile(!mobile);
@@ -21,7 +24,20 @@ export default function Navbar() {
           />
         </Link>
         <div className="basis-2/4 hidden md:flex items-center justify-around text-xl">
-          <Link
+          {navbar?.map((item) => (
+            <Link
+              href={item.href}
+              className={`${
+                item.href === path
+                  ? "text-black font-semibold underline underline-offset-[6px]"
+                  : ""
+              }"hover:text-black hover:scale-110 hover:underline hover:underline-offset-2 transition-all duration-200 text-gray-600 cursor-pointer"`}
+              key={item.key}
+            >
+              {item.label}
+            </Link>
+          ))}
+          {/* <Link
             href="/services"
             className="hover:text-[#206e61] cursor-pointer"
           >
@@ -35,13 +51,13 @@ export default function Navbar() {
           </Link>
           <Link href="/jobbs" className="hover:text-[#206e61] cursor-pointer">
             Jobb i Miljø
-          </Link>
+          </Link> */}
         </div>
         <Link
           href="/contact"
           className="basis-1/4 hidden md:flex items-center justify-center"
         >
-          <button className="px-5 py-3 bg-[#7fafb1] hover:bg-[#C0D7D8] text-black rounded-3xl uppercase font-bold">
+          <button className="px-5 py-2 bg-[#7fafb1] hover:underline hover:underline-offset-2 hover:scale-105 transition-all duration-200 text-black rounded-3xl uppercase font-bold">
             Kontakt oss
           </button>
         </Link>
@@ -74,32 +90,43 @@ export default function Navbar() {
         }
       >
         <div className="flex flex-col items-center justify-center gap-3 text-xl py-4">
-            <Link
-              href="/services"
-              className="hover:text-[#206e61] cursor-pointer"
-              onClick={handleMenu}
-            >
-              Tjenester
-            </Link>
-            <Link
-              href="/about"
-              className="hover:text-[#206e61] cursor-pointer"
-              onClick={handleMenu}
-            >
-              Om Oss
-            </Link>
-            <Link href="/blogs" className="hover:text-[#206e61] cursor-pointer"
-            onClick={handleMenu}>
-              Blog
-            </Link>
-            <Link href="/jobbs" className="hover:text-[#206e61] cursor-pointer" onClick={handleMenu}>
+          <Link
+            href="/services"
+            className="hover:text-[#206e61] cursor-pointer"
+            onClick={handleMenu}
+          >
+            Tjenester
+          </Link>
+          <Link
+            href="/about"
+            className="hover:text-[#206e61] cursor-pointer"
+            onClick={handleMenu}
+          >
+            Om Oss
+          </Link>
+          <Link
+            href="/blogs"
+            className="hover:text-[#206e61] cursor-pointer"
+            onClick={handleMenu}
+          >
+            Blog
+          </Link>
+          <Link
+            href="/jobbs"
+            className="hover:text-[#206e61] cursor-pointer"
+            onClick={handleMenu}
+          >
             Jobb i Miljø
           </Link>
-            <Link href="/contact" className="flex items-center justify-center" onClick={handleMenu}>
-              <button className="px-5 py-1 md:py-3 bg-[#4d696a] hover:bg-[#7fafb1] text-white rounded-3xl text-base uppercase font-bold md:text-xl">
-                Kontakt oss
-              </button>
-            </Link>
+          <Link
+            href="/contact"
+            className="flex items-center justify-center"
+            onClick={handleMenu}
+          >
+            <button className="px-5 py-1 md:py-3 bg-[#4d696a] hover:bg-[#7fafb1] text-white rounded-3xl text-base uppercase font-bold md:text-xl">
+              Kontakt oss
+            </button>
+          </Link>
         </div>
       </div>
     </div>
