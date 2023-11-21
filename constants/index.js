@@ -8,6 +8,7 @@ import temporary from "../public/temporary.jpg";
 import byicon from "../public/byportenicon.jpg";
 import glasicon from "../public/glasicon.jpg";
 import foricon from "../public/fornebuicon.png";
+import garasje from "../public/garasje.jpg"
 
 export const navbar = [
   { href: '/', key: 'home', label: 'Home' },
@@ -32,6 +33,11 @@ export const services = [
     name: "Trappevask",
     img: stairs,
     desc: "Trapper er ofte mye trafikkerte områder som samler opp skitt og støv raskt. Våre trapperengjøringstjenester sikrer at hvert trinn er skinnende rent og trygt å bruke. Vi rengjør og renser trapper, rekkverk og avsatser, og etterlater dem i perfekt stand. Med vår oppmerksomhet på detaljer kan du stole på at vi opprettholder rene og trygge trapper i bygningen din.",
+  },
+  {
+    name: "Garasjevask",
+    img: garasje,
+    desc: "Å opprettholde rensligheten i garasjeanlegg er essensielt for et trygt og trivelig miljø. Vi, som spesialister innenfor rengjøringstjenester, tilbyr en omfattende garasjevask som går utover de vanlige rengjøringsrutinene. Vårt mål er å levere en grundig og effektiv rengjøring som møter behovene til både privatpersoner og bedrifter. Tjenester vi tilbyr: Feiing: En grundig feiing av garasjeanlegget er en viktig del av vår tjeneste. Vi fjerner støv, skitt, og annet avfall som kan samle seg i kriker og kroker. Dette bidrar ikke bare til et renere utseende, men også til bedre luftkvalitet. Vask: Våre erfarne rengjøringspersonell benytter seg av høykvalitets rengjøringsmidler og utstyr for å vaske overflater, vegger, og gulv i garasjeanlegget. Dette sikrer ikke bare estetisk appell, men også fjerning av potensielle helsefarlige stoffer. Høytrykksspyling: Noen ganger krever garasjeanlegg ekstra kraftig rengjøring. Med våre høytrykksspylere fjerner vi hardnakkede flekker, oljesøl og annet smuss som kan være vanskelig å fjerne med tradisjonelle metoder. Dette resulterer i en grundig og effektiv rengjøring. Større og mindre oppdrag: Vi tilbyr fleksibilitet når det gjelder oppdragsstørrelse. Enten det er snakk om en enkel garasjevask for privatpersoner eller en omfattende rengjøring av et stort parkeringsanlegg for bedrifter, står vi klare til å levere kvalitetstjenester. Hvorfor velge oss: Erfaring og ekspertise: Vi har lang erfaring innen rengjøringstjenester og har opparbeidet oss ekspertise innen garasjevask. Vårt team av dedikerte rengjøringspersonell er opplært for å håndtere ulike typer garasjeanlegg. Miljøvennlige metoder: Vi setter miljøet høyt på agendaen. Våre rengjøringsmidler og metoder er nøye utvalgt for å minimere miljøpåvirkningen samtidig som de gir optimale resultater. Skreddersydde løsninger: Vi forstår at hvert garasjeanlegg er unikt. Derfor tilpasser vi våre tjenester etter spesifikke behov og krav til hvert oppdrag. Dette sikrer en skreddersydd og effektiv rengjøring. Pålitelighet og effektivitet: Vi er forpliktet til å levere tjenester av høyeste kvalitet innen avtalt tid. Vår pålitelighet og effektivitet gjør oss til et pålitelig valg for alle dine garasjevaskbehov.",
   },
   {
     name: "Gulvbehandling",

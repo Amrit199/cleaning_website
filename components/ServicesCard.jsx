@@ -8,9 +8,9 @@ const ServicesCard = ({ item }) => {
   return (
     <Link
       href={`/services/${item.name}`}
-      className="w-full p-6 flex flex-col items-start justify-between gap-4 bg-white hover:bg-white/40 rounded-lg group"
+      className="w-full h-96 p-6 flex flex-col items-start justify-between gap-4 bg-white hover:bg-white/40 rounded-lg group"
     >
-      <div className="w-full group flex flex-col items-start justify-center gap-4">
+      <div className="w-full h-full group flex flex-col items-start justify-center gap-4">
         <div className="w-full overflow-hidden rounded-lg">
           <Image
             src={item.img}

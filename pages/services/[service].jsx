@@ -24,8 +24,8 @@ const index = () => {
   }
   return (
     <div className="w-full pt-24 pb-6 text-black bg-slate-50">
-      <div className="w-full px-8 py-10 flex gap-2">
-        <div className=" w-full flex flex-col items-start gap-4">
+      <div className="w-[80%] mx-auto lg:w-full lg:px-8 py-10 flex flex-col lg:flex-row gap-8 lg:gap-3">
+        <div className=" w-full flex flex-col items-start gap-8">
           <h3 className=" text-black">{service.name}</h3>
           <h2 className="text-[#7fafb1]">Det føles bedre når ting er rent!</h2>
           <Image
@@ -33,7 +33,7 @@ const index = () => {
             className="w-96 rounded-lg"
             alt={service.name}
           />
-          <p>{service.desc}</p>
+          <p className="text-lg leading-8">{service.desc}</p>
         </div>
         <div className="w-full flex items-start justify-center">
           <WithUs />
