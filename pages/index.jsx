@@ -22,9 +22,9 @@ const index = () => {
         </motion.div>
         <ServicePage />
         <motion.div
-          initial={{ opacity: 0, x: -150 }}
+          initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1.5, ease: "easeInOut" }}
+          transition={{ duration: 1.5, delay: 1, ease: "easeInOut" }}
           viewport={{ once: true }}
           className="w-full px-2 py-16 md:py-32 lg:px-10"
         >
@@ -32,9 +32,9 @@ const index = () => {
         </motion.div>
         <div className="w-full py-10 bg-[url('/clean.jpg')] bg-center bg-no-repeat bg-cover flex items-center justify-center md:justify-end">
           <motion.div
-            initial={{ opacity: 0, x: -150 }}
+            initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1.5, ease: "easeInOut" }}
+            transition={{ duration: 1.5, delay: 1, ease: "easeInOut" }}
             viewport={{ once: true }}
             className="w-[80%] md:w-[60%] lg:w-[40%] bg-slate-100 rounded-xl m-1 sm:m-6"
           >

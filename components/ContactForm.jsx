@@ -79,7 +79,7 @@ const ContactForm = () => {
             onChange={handleChange}
           ></textarea>
         </div>
-        <button className=" px-3 py-2 bg-[#7fafb1] rounded-lg">
+        <button className="w-full py-4 bg-[#7fafb1] rounded-lg text-lg font-semibold hover:bg-black hover:text-white transition-all">
           Send meg pristilbud
         </button>
       </form>

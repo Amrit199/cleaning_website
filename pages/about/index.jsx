@@ -17,7 +17,7 @@ const index = () => {
           bransjeerfaring, tilegnet gjennom samarbeid med andre anerkjente
           renholdsfirmaer og dedikerte roller innen renholdsledelse.
         </p>
-        <p>
+        <p className="text-xl">
           Vårt primære fokus er å tilby rengjøringsløsninger av høy kvalitet, og
           vår tilpasningsdyktige ekspertise dekker et bredt spekter av
           kommersielle miljøer. Vi er stolte av å tilby grundige
